@@ -7,4 +7,5 @@ You need to have python installed in your system
 
 >You can run the file in terminal 
   >>python alpha_cut.py
+  
   >>python fuzzy_relational.py
