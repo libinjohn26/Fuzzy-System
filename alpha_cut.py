@@ -35,7 +35,9 @@ class LinkedList:
         current = self.head
         mem = 0.0
         while(current):
-            if x in np.arange(current.data[0], current.data[1], 0.5).tolist():
+            list = np.arange(current.data[0], current.data[1], 0.5).tolist()
+            list.append(current.data[1])
+            if x in list:
                 mem = current.degree
                 break
             current = current.next
